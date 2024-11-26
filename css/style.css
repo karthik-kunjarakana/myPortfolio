@@ -63,15 +63,6 @@ body{
   font-weight: 700;
 }
 
-.logo .fa-bolt {
-  color: #fed700;
-  font-size: 19.5px;
-  position: absolute; 
-  top: 60%;
-  left: 100%; 
-  transform: translate(-50%, -50%); 
-  z-index: 1; 
-}
 
 .signature {
   width: 100px; 
@@ -532,3 +523,29 @@ profile-photo .img{
   }
 
 }
+
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        display: none;  /* Hide navbar on small screens */
+    }
+
+    .menu_icon {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu_icon i {
+        color: white;
+        font-size: 24px;
+    }
+
+    .profile-text {
+        padding: 20px;
+    }
+}
+
+
